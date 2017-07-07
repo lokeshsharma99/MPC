@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
@@ -43,6 +44,8 @@ public class Login2SF {
 		driver.findElement(By.xpath("//*[@id='Login']")).submit();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	} 
+	
+	@AfterMethod
 	
 	public void checking(ITestResult result) throws Exception
 	{
