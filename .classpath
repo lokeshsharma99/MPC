@@ -35,5 +35,7 @@
 	<classpathentry kind="lib" path="D:/Development_Avecto/workspace/lib/selenium-server-standalone-3.4.0.jar"/>
 	<classpathentry kind="lib" path="D:/Development_Avecto/workspace/lib/testng-6.9.10.jar"/>
 	<classpathentry kind="lib" path="D:/Development_Avecto/workspace/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Development_Avecto/workspace/lib/org.testng.eclipse.maven_6.11.0.201703011520.jar"/>
+	<classpathentry kind="lib" path="D:/Development_Avecto/workspace/lib/org.testng.eclipse_6.11.0.201703011520.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
