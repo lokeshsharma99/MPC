@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47089" started-at="2017-07-07T15:18:53Z" finished-at="2017-07-07T15:19:40Z">
+  <suite name="Default suite" duration-ms="69389" started-at="2017-07-10T10:59:49Z" finished-at="2017-07-10T11:00:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47089" started-at="2017-07-07T15:18:53Z" finished-at="2017-07-07T15:19:40Z">
+    <test name="Default test" duration-ms="69389" started-at="2017-07-10T10:59:49Z" finished-at="2017-07-10T11:00:58Z">
       <class name="testCases.Login2SF">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Login2SF@14523f8]" name="setup" is-config="true" duration-ms="24705" started-at="2017-07-07T08:18:53Z" finished-at="2017-07-07T08:19:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Login2SF@14523f8]" name="setup" is-config="true" duration-ms="54174" started-at="2017-07-10T03:59:49Z" finished-at="2017-07-10T04:00:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testCases.Login2SF@14523f8]" name="login" duration-ms="21520" started-at="2017-07-07T08:19:17Z" finished-at="2017-07-07T08:19:39Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testCases.Login2SF@14523f8]" name="login" duration-ms="14106" started-at="2017-07-10T04:00:43Z" finished-at="2017-07-10T04:00:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="checking(org.testng.ITestResult)[pri:0, instance:testCases.Login2SF@14523f8]" name="checking" is-config="true" duration-ms="0" started-at="2017-07-07T08:19:39Z" finished-at="2017-07-07T08:19:39Z">
+        <test-method status="FAIL" signature="checking(org.testng.ITestResult)[pri:0, instance:testCases.Login2SF@14523f8]" name="checking" is-config="true" duration-ms="0" started-at="2017-07-10T04:00:57Z" finished-at="2017-07-10T04:00:57Z">
           <params>
             <param index="0">
               <value>

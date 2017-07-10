@@ -49,9 +49,8 @@ public class Login2SF {
 	
 	public void checking(ITestResult result) throws Exception
 	{
-		String screenshot_path=utility.captureScreenShot(driver,result.getName());	
-		ExtentTest image=logger.addScreenCaptureFromPath(screenshot_path);
-		logger.log((Status.FAIL), "");
+		
+		logger.log((Status.FAIL), "FaILeD");
 		
 		
 	if(result.getStatus()==ITestResult.FAILURE)	{
